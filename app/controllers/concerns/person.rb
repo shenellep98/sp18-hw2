@@ -7,18 +7,16 @@ class Person
   end
 
   def nickname
-    # YOUR IMPLEMENTATION HERE
-    'delete_me'
+    return name.to_s[0..2]
   end
 
   def birth_year
-    # YOUR IMPLEMENTATION HERE
+    2018 - age.to_i
     1990
   end
 
   def introduction
-    # YOUR IMPLEMENTATION HERE
-    'delete_me'
+    "name: " + name + ", age: " + age
   end
 
 end
